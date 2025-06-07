@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kviz Aplikacija</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kviz znanja</h1>
+      <div id="question-container" class="hide">
+        <div id="timer">30</div>
+        <div id="question">Pitanje će se pojaviti ovde</div>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+      <div id="controls">
+        <button id="start-btn" class="start-btn">Počni kviz</button>
+      </div>
+      <div id="result-container" class="hide">
+        <div id="final-message"></div>
+        <div id="emoji"></div>
+        <button id="restart-btn" class="start-btn">Pokušaj ponovo</button>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
