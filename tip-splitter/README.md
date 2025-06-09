@@ -1,6 +1,6 @@
 # 💸 Tip Splitter Aplikacija
 
-Jednostavna aplikacija za brzo deljenje računa i napojnice između više osoba.
+Aplikacija za deljenje računa i napojnice između više osoba.
 
 ## Funkcionalnosti
 
